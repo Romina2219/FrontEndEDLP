@@ -1,0 +1,30 @@
+body {background-color: #fae5d3; }
+h1 { color:  #212f3c; text-decoration: underline; font-style: italic; font-size: 46px; }
+h2 {text-decoration: underline; font-style: oblique; font-size: 30px; }
+h3 {color:   #212f3c ; text-decoration: underline; }
+p {color:  #1b2631  ; text-align: justify; }
+ul {text-align: left;;}
+ol {text-align: justify;}
+img {width: 500px; height: 500px; }
+
+body {background-image: url(../fondos/ratatouille1.png);
+       background-repeat: no-repeat;
+       background-position: 50% 30%;
+      background-attachment: fixed;}
+#facebook {width: 50px; height: 50px;}
+#instagram {width: 50px; height: 50px;}
+#youtube {width: 50px; height: 50px;}
+#whatsapp {position: fixed; top: 75%; right: 10%; width: 100px; height: 100px;}
+.navegador {color: #186a3b ; text-decoration: overline; font-style: italic; font-size: 25px;}
+
+header {background-color:  #eb984e ;}
+nav ul li {display: inline-block; margin:1%; font-family: sans-serif; font-style: italic; font-size: 30px;}
+section {background-color:  #e59866; width: 47%; height: 1299px; float:left; margin: 1%; padding: 10px; border: 2px; border-style: solid; border-color: black; box-sizing: border-box; overflow: auto;}
+aside {background-color:  #e59866; width: 47%; float:left; margin: 1%; padding: 10px; border: 2px; border-style: solid; border-color: black; box-sizing: border-box; overflow: auto;}
+footer {background-color:  #eb984e ; margin: 2%; height: 200px; clear: both;}
+.foot {color:  #212f3c; text-decoration: overline; font-style: italic; font-size: 25px;}
+.redes {text-align: center;}
+a:link {color:#f1c40f}
+a:visited {color:   #3498db ;}
+#foto1:hover {border-radius: 50%;}
+.contactos {background-color:  #e59866; width: 75%; float:left; margin: 1%; padding: 10px; border: 2px; border-style: solid; border-color: black; box-sizing: border-box; overflow: auto;}
