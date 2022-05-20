@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Grape+Nuts&family=Smooch&display=swap');
+h1 {font-family: 'Dancing Script', cursive;}
+
 body {background-color: #fae5d3; }
 h1 { color:  #212f3c; text-decoration: underline; font-style: italic; font-size: 3rem; }
 h2 {text-decoration: underline; font-style: oblique; font-size: 2rem; }
@@ -14,16 +18,35 @@ body
 #whatsapp {position: fixed; top: 75%; right: 10%; width: 6vw; height: 6vw;}
 .navegador {color: #186a3b ; text-decoration: overline; font-style: italic; font-size: 2rem;}
 
-header {background-color:  #eb984e ;}
+header {background-color:  #eb984e ;
+height: 15vh;
+justify-content: space-around;}
 nav ul li {display: inline-block; margin:1%; font-family: sans-serif; font-style: italic; font-size: 2rem;}
 .flex {display: flex; justify-content: flex-start;}
 section {background-color:  #e59866; margin: 1%; padding: 10px; border: 2px; border-style: solid; border-color: black; box-sizing: border-box; }
 aside { background-color:  #e59866; padding: 10px; border: 2px; border-style: solid; border-color: black; box-sizing: border-box;}
 footer {
-  background-color:  #eb984e ; margin: 2%; height: 200px; clear: both;}
+  background-color:  #eb984e ; margin: 2%; height: 25vh; clear: both;}
 .foot {color:  #212f3c; text-decoration: overline; font-style: italic; font-size: 25px;}
 .redes {display: flex; justify-content: space-around; align-items: center; }
 a:link {color:#f1c40f}
 a:visited {color:   #3498db ;}
 #foto1:hover {border-radius: 50%;}
 .contactos {background-color:  #e59866; width: 75%; float:left; margin: 1%; padding: 10px; border: 2px; border-style: solid; border-color: black; box-sizing: border-box; overflow: auto;}
+
+#remi {width: 10vw; height: 10vw;}
+
+@media (max-width: 600px) {
+  h1 {background-color: blue;}
+  .flex {display: flex; flex-direction: column;}
+}
+
+@media (max-width:900px) {
+.navegador {background-color: grey;}
+
+}
+
+@media (min-width:1200px) {
+p {font-family: 'Grape Nuts', cursive;}
+#remi {display: none;}
+}
