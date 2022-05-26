@@ -50,3 +50,8 @@ a:visited {color:   #3498db ;}
 p {font-family: 'Grape Nuts', cursive;}
 #remi {display: none;}
 }
+
+img:hover {
+  transition: transform .2s;
+  transform: scale(1.03);
+}
